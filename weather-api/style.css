@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+}
+nav {
+    border-top: 0.5rem solid white;
+    background-color: #067eb2;
+    height: 70px;
+}
+nav h1{
+    color: white;
+    font-size: 50px;
+}
+.day{
+    margin: 3rem 1px 0 1px;
+    min-height: 85px;
+    min-width: 105px;
+    background-color: white;
+    border: 1px solid grey;
+    border-bottom: 7px solid #f26a30;
+}
+.city{
+    padding: 1rem;
+    color: white;
+}
+h4{
+    font-size: 2rem;
+    margin-left: -2rem;
+}
+.fa-plus{
+    font-size: 20px;
+}
+.wi-wind{
+    padding: 0.5rem;
+}
+footer{
+    padding: 2rem;
+}
+.juosta{
+    padding: 0.4rem;
+    height: 44px;
+    max-width: 210px;
+    background-color: #324050;
+}
+.juosta i{
+    padding-right: 0.3rem;
+    margin: 0.15rem;
+}
+.dai:hover{
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+.day-active{
+    min-height: 150px;
+    min-width: 400px;
+    background-color: white;
+    border: 1px solid grey;
+    border-top: 10px solid #f26a30;
+}
+.day i{
+    font-size: 20px;
+}
+.day p{
+    font-size: 12px;
+}
+p{
+    font-size: 20px;
+}
+.hour{
+    background: white;
+    min-height: 333px;
+    min-width: 66px;
+    border: 1px solid grey;
+}
+.splitter{
+    border-left: 1px solid black;
+    padding-left: 1rem;
+}
+.laikai{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.days p{
+    margin-left: 0.5rem;
+}
+i{
+    font-size: 40px;
+}
+main{
+    background-image: url("./images/sky.png");
+}
+input{
+    margin-top: 0.5rem;
+    margin-left: -3rem;
+    width:inherit;
+    height: 3rem;
+    text-indent: 10px;
+}
+.fa-search{
+    position: absolute;
+    left: 93%;
+    top: 1rem;
+    font-size: 1.8rem;
+}
+.day-active i{
+    padding-top: 0.5rem;
+}
+.fa-clock{
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+    font-size: 30px;
+}
